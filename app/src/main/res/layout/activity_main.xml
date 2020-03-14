@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|center_horizontal">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="此处显示不同按钮绑定监听器方法"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Activity作为监听器"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="匿名内部类"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="绑定到标签"
+        android:onClick="clickHandler"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="内部类"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="外部类"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="ButterKnife绑定"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="系统信息"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="模拟进度条"
+        ></Button>
+
+</LinearLayout>

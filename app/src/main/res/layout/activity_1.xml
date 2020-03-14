@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
     tools:context=".Activity1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/ori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:cursorVisible="false"
+        android:hint="显示屏幕方向"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:cursorVisible="false"
+        android:hint="显示手机方向控制设备"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/touch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:cursorVisible="false"
+        android:hint="显示触摸屏状态"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/mnc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:cursorVisible="false"
+        android:hint="显示移动网络代号"
+        ></EditText>
+
+    <Button
+        android:id="@+id/bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取手机信息"
+        ></Button>
+</LinearLayout>
